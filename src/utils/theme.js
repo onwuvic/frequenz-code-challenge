@@ -8,12 +8,14 @@ export const purple = '#5F2BE1';
 export const coral = '#E46868';
 export const background = '#F3F8FD';
 export const lightGray = '#A3BCC3';
+export const white = '#FFFFFF';
 
 export const theme = createTheme({
   palette: {
     common: {
       charcoal,
       lightGray,
+      white,
     },
     primary: {
       main: brightBlue,
