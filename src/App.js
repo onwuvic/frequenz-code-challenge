@@ -1,8 +1,15 @@
-import { Home } from 'views/Home'
+import Container from '@mui/material/Container';
+import { Nav } from 'components';
+import { Routes } from './Routes';
 
 function App() {
   return (
-    <Home />
+    <>
+      <Nav />
+      <Container maxWidth="md">
+        <Routes />
+      </Container>
+    </>
   );
 }
 
