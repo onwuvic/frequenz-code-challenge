@@ -6,12 +6,14 @@ export const Container = styled(Box)(({ theme }) => ({
   display: 'flex',
   flexDirection: 'row',
   gap: theme.spacing(1),
+  marginTop: theme.spacing(2),
 }));
 
 export const OrganizationAvatar = styled(Avatar)(({ theme }) => ({
   width: theme.spacing(10),
   height: theme.spacing(10),
   marginRight: theme.spacing(1),
+  textTransform: 'uppercase',
 }));
 
 export const OrganizationDetails = styled(Box)(({ theme }) => ({
