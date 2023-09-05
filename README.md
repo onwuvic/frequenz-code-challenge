@@ -1,25 +1,60 @@
-# Getting Started with Create React App
+# Repofinder App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+**`Repofinder`** is an application that lets the user browse
+repositories on GitHub. This was built with React.
 
-In the project directory, you can run:
+### Features
+
+- User can search for organization on github with autocomplete
+- Display organization repositories
+- Display organization detail summary
+- User can filter repositories by minimum and maximum open issues
+- Repositories are paginated
+- Repositories are display in tabular format with number of open issues, and stars
+
+### Demo
+
+[live demo](https://mesh-ten.vercel.app/)
+
+## Github Repo
+
+https://github.com/onwuvic/frequenz-code-challenge
+
+## Requirement
+
+Nodejs > 16.0.0
+
+## Installation
+
+- Install Node
+- On your `terminal` or `CMD`
+- clone the repo
+
+  > git clone git@github.com:onwuvic/frequenz-code-challenge.git
+
+  or
+
+  > git clone https://github.com/onwuvic/frequenz-code-challenge.git
+
+- cd into `frequenz-code-challenge`
+
+  > cd frequenz-code-challenge
+
+- run `npm install`
+- run `npm start`
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Currently no test for the frontend
 
-### `npm run build`
+### `npm build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,44 +62,26 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
 
-### `npm run eject`
+- [REACT](https://facebook.github.io/react/): REACT is a JavaScript framework developed by Facebook and it is used for developing web application. REACT is the 'VIEW' in the MVC architecture.
+- [MUI:](https://mui.com/): MUI is a react UI framework for faster and easier web development. It is a set of react components, which follows the material design guidelines.
+- [Webpack:](https://webpack.github.io/docs/what-is-webpack.html): webpack is a module bundler.
+- [React-Query:](https://tanstack.com/query/latest): For data fetching and caching
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Architecture and Design
+ - [Link to architecture](https://excalidraw.com/#json=VZ0WIcElIUqLSFn8vS9rE,l3GiWXRkd-VoON2tfRAzUw)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Language
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Javascript
+- HTML
+- CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
+[Victor Onwuzor](https://github.com/onwuvic)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License & Copyright
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT ©
