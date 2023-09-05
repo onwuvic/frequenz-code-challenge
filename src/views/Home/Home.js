@@ -32,7 +32,7 @@ export function Home() {
   const [maxOpenIssues, setMaxOpenIssues] = useState(Infinity);
 
   const debouncedOrganizationName = useDebounce(organizationName, 1000);
-  const debouncedSearchRepository = useDebounce(searchRepository, 1000);
+  const debouncedSearchRepository = useDebounce(searchRepository, 500);
 
   const {
     data: organizations = [],
@@ -168,7 +168,7 @@ export function Home() {
                     value={searchRepository}
                     onChange={(e) => setSearchRepository(e.target.value)}
                     label="Find a repository…"
-                    id="outlined-start-adornment"
+                    id="search-repository"
                     size="small"
                     fullWidth
                     InputProps={{

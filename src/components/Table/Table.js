@@ -28,7 +28,7 @@ export function Table({ rows }) {
 
   return (
     <TableContainer component={Paper}>
-      <TableMui sx={{ minWidth: 650 }} aria-label="simple table">
+      <TableMui sx={{ minWidth: 650 }} aria-label="data table">
         <TableHead>
           <TableRow>
             <TableCell>Name</TableCell>
