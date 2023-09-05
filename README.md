@@ -26,7 +26,7 @@ repositories on GitHub. This was built with React.
 - [React-Query:](https://tanstack.com/query/latest): For data fetching and caching
 
 ## Architecture and Design
- - [Link to architecture and design](https://excalidraw.com/#json=VZ0WIcElIUqLSFn8vS9rE,l3GiWXRkd-VoON2tfRAzUw)
+ - [Link to architecture and design](https://excalidraw.com/#json=U1GAwul2AplTqF6zFsbX7,GitKB0gL1W25FNM5sNNwOQ)
 
 ## Github Repo
 
