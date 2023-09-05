@@ -1,5 +1,4 @@
 import { Typography } from 'components/Typography';
-
 import { ContentContainer } from './NotFound.styles';
 
 export function NotFound() {
